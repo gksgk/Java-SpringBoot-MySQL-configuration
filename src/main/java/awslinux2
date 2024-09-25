@@ -1,0 +1,8 @@
+setting up database to connect with spring boot application:
+1.create user of mysql from root user
+CREATE USER 'ec2-user'@'49.36.179.44' IDENTIFIED BY 'Gaurav@0430';
+2.grant all acces to them
+GRANT ALL PRIVILEGES ON *.* TO 'ec2-user'@'49.36.179.44';
+FLUSH PRIVILEGES; //to apply changes
+
+
