@@ -1,4 +1,5 @@
-Linux-Amazon:
+Linux-Amazon: Java-SpringBoot-MySQL configuration
+
 1. To run java application in background
 You can use nohup:
 nohup java -jar jarfile &
